@@ -1,5 +1,6 @@
 import React from "react";
 import './Header.css'
+import './images/paw-logo.png'
 
 function HeaderComponent () {
     return (
@@ -27,7 +28,7 @@ function HeaderComponent () {
             </nav>
             <nav className="nav-two">
                 <div className="logo">
-                    <img src="./paw-logo.png" alt="brand-logo"/>
+                    <img src='./images/paw-logo.png' alt="brand-logo"/>
                 </div>
                 <div className="nav-links">
                     <ul>
