@@ -1,18 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import Header from "./Components/Header/Header.jsx";
-import FooterComponent from "./Components/FooterComponent/FooterComponent.jsx";
+import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom'
+import {HeaderComponent} from "./Components/Header/HeaderComponent.jsx";
 
 function App() {
-
   return (
-    <>
-      <Header></Header>
-        <MainComponent></MainComponent>
-        <FooterComponent></FooterComponent>
-    </>
+      <>
+        <HeaderComponent/>
+      </>
   )
 }
 

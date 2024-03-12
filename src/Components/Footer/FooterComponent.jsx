@@ -6,4 +6,4 @@ function FooterComponent() {
     )
 }
 
-export default FooterComponent
+export {FooterComponent}
