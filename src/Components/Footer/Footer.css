@@ -1,0 +1,40 @@
+.footer-container {
+    border: 1px solid black;
+    width: 100%;
+    height: 150vh;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    margin-top: 10px;
+}
+
+.links {
+    list-style: none;
+}
+
+.links li {
+    padding: 3px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.map {
+    height: 30%;
+}
+
+.icons {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    padding: 35px;
+    height: 20%;
+}
+
+.icons i {
+    margin: 0 10px;
+}
