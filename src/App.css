@@ -1,42 +1,46 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.body {
+    margin: 0;
+    display: flex;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.banner-title {
+    font-size: 30px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-title,
+.banner-subtitle {
+    font-family: "Caveat", cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+ul li {
+    font-family: "Caveat", cursive;
 }
 
-.card {
-  padding: 2em;
+header,
+footer {
+    flex: 1;
 }
 
-.read-the-docs {
-  color: #888;
+main {
+    flex: 5;
+}
+
+.banner-container {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin-left: 50px;
+}
+
+li {
+    list-style: none;
 }

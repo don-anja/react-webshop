@@ -5,6 +5,7 @@ import logoPhoto from './images/paw-logo.png'
 function HeaderComponent () {
     return (
         <>
+            <div className="nav-container">
             <nav className="nav-one">
                 <div className="left">
                     <i className="fa-regular fa-envelope"/>
@@ -55,6 +56,7 @@ function HeaderComponent () {
                     </ul>
                 </div>
             </nav>
+            </div>
         </>
     )
 }

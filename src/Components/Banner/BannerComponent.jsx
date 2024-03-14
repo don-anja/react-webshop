@@ -1,5 +1,4 @@
 import React from "react";
-import bannerPhoto from './images/happy-lab.jpeg'
 import './BannerComponent.css'
 
 function BannerComponent () {
