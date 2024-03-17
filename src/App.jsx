@@ -4,6 +4,7 @@ import {AppWrapperComponent} from "./Components/AppWrapper/AppWrapperComponent.j
 import './App.css'
 import {Home} from "./Components/Home/Home.jsx";
 import {ContactComponent} from "./Components/Contact/Contact.jsx";
+import {AboutUsComponent} from "./Components/AboutUs/AboutUsComponent.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
                 <Route path="/" element={<AppWrapperComponent/> }>
                     <Route index element={<Home/> }/>
                     <Route path="/contact" element={<ContactComponent/>}/>
+                    <Route path="/aboutus" element={<AboutUsComponent/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>
