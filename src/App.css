@@ -1,19 +1,11 @@
 .body {
     margin: 0;
     display: flex;
-}
+    font-family: 'Poppins', sans-serif;
+    }
 
 .banner-title {
     font-size: 30px;
-}
-
-.banner-title,
-.banner-subtitle {
-    font-family: "Caveat", cursive;
-}
-
-ul li {
-    font-family: "Caveat", cursive;
 }
 
 header,

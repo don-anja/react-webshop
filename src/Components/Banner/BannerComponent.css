@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
 .banner-container {
     display: flex;
     background-image: url(images/happy-lab.jpeg);
